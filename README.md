@@ -5,7 +5,7 @@ Creo una carpeta en mi equipo a la que llamo SI_Bitacora4_SergioGarciadeBaya des
 
 # Laboratorio de Sistemas Informáticos - Bitácora 3
 # Este archivo levanta dos servicios: un servidor SSH y un entorno gráfico vía RDP/Web
-<!--
+\`\`\`yml
 version: '3.8'
 
 services:
@@ -37,7 +37,7 @@ services:
       - "3000:3000" # Puerto para acceso vía navegador (HTTP/Guacamole)
     shm_size: "1gb" # Importante para evitar cuelgues en el entorno gráfico
     restart: unless-stopped
--->
+\`\`\`
 Abro la terminal en visual code de la carpeta que he creado y ejecuto docker-compose up -d 
 <img width="802" height="900" alt="Captura" src="images2/Captura de pantalla 2026-05-08 095622.png" />
 
