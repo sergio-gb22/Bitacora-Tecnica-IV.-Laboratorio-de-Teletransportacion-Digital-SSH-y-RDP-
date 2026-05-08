@@ -12,6 +12,12 @@ Para verificar que los contenedores estan funcionando uso docker ps
 
 ## *Fase de Ejecución*
 ### *Paso A (Conexión Inicial)*
+Me salio un error
+<img width="802" height="900" alt="Captura" src="images/Captura de pantalla 2026-05-08 093926.png" />
+
+Que solucione utilice el comando ssh-keygen -R "[localhost]:2222"
+<img width="802" height="900" alt="Captura" src="images/Captura de pantalla 2026-05-08 101304.png" />
+
 Me conecto al contenedor utilizando ssh alumno@localhost -p 2222 
 <img width="802" height="900" alt="Captura" src="images/Captura de pantalla 2026-05-08 093926.png" />
 
