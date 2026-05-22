@@ -8,3 +8,5 @@ Tras investigar los elementos necesarios y los precios hemos creado una hoja de 
 
 ## *Tarea 2:* Red y Comunicación
 Tras investigar hemos realizado la Tarea 2 en el acrivo que se encuentra en docs/Memoria_Tecnica_SI_García.md 
+
+## *Tarea 3:* El Investigador
